@@ -123,3 +123,18 @@ h2 {
 .fa-download {
     margin-right: 10px;
 }
+
+@media screen and (max-width: 767px) {
+    .container {
+        max-width: 550px;
+    }
+}
+
+#contact-me {
+    padding: 76px 0;
+    color: #2c3e50;
+}
+
+#contact-me .half-divider {
+    background-color: #2c3e50;
+}
