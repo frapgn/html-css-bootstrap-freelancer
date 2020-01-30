@@ -92,3 +92,34 @@ h2 {
 }
 
 /* ABOUT */
+#about {
+    padding: 76px 0;
+    color: #fff;
+    background-color: #1abc9c;
+
+}
+
+#about .custom-divider {
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 20px;
+}
+
+.btn-default {
+    color: #f8f9fa;
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid #f8f9fa;
+    padding: 20px 30px;
+}
+
+.btn-default:hover {
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+    color: #000;
+}
+
+.fa-download {
+    margin-right: 10px;
+}
