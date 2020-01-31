@@ -105,22 +105,16 @@ h2 {
     margin-bottom: 20px;
 }
 
-#portfolio .row > div:not(:first-child) .row {
-    position: relative;
+#portfolio .row > div:not(:first-child) {
     margin-bottom: 30px;
-    /* margin-left: 15px; */
 }
-
-/* .custom.col-lg-4 {
-    padding-right: 0;
-    padding-left: 0;
-} */
 
 .box {
     position: relative;
 }
 
-.overlay {
+.box:hover .overlay {
+    cursor: pointer;
     background-color: rgba(26,188,156,0.9);
     position: absolute;
     top: 0;
