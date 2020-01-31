@@ -21,6 +21,14 @@ nav a {
     font-weight: 700;
 }
 
+#menu {
+    float: right;
+}
+
+#menu a {
+    margin-left: 30px;
+}
+
 #menu a:hover {
     color: #1abc9c;
     text-decoration: none;
@@ -37,13 +45,19 @@ nav .container {
 
 #logo {
     font-size: 25px;
+    display: inline-block;
 }
 
 #menu {
     font-size: 16px;
+    display: inline-block;
 }
 
-.fa-bars {
+#hamburger {
+    float: right;
+}
+
+.hamburger .fa-bars {
     color: #fff;
 }
 
