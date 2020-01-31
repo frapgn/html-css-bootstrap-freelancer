@@ -124,6 +124,23 @@ h2 {
     border-radius: 10px;
 }
 
+.box-icon {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.box:hover .box-icon {
+    display: block;
+}
+
+.fa-3x {
+    color: #fff;
+    font-size: 60px;
+}
+
 /* ABOUT */
 #about {
     padding: 76px 0;
