@@ -88,10 +88,6 @@ h1 {
     font-weight: 700;
 }
 
-.custom-divider {
-    width: 100%;
-}
-
 .half-divider {
     display: inline-block;
     background-color: #fff;
@@ -327,5 +323,22 @@ footer .fab {
 
     header p {
         font-size: 18px;
+    }
+
+}
+
+@media screen and (max-width: 465px) {
+    .half-divider {
+        margin: 8px 0px;
+        height: 2px;
+    }
+
+    .glyphicon-star {
+        font-size: 20px;
+        margin: 0 5px;
+    }
+
+    header p {
+        margin-top: 10px;
     }
 }
