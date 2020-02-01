@@ -292,7 +292,7 @@ footer .row div:nth-child(2) a {
 }
 
 footer .btn-custom:hover,
-footer .btn-custom:hover .fab{
+footer .btn-custom:hover .fab {
     background-color: #fff;
     color: #212529;
 }
@@ -339,7 +339,7 @@ footer .fab {
 
 @media screen and (max-width: 619px) {
     .container {
-        width: 90%;
+        /* width: 90%; */
     }
 }
 
